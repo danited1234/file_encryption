@@ -1,4 +1,5 @@
 Build this script just to have fun.
+The Encrypt.py is to run and Function.py has all the functions that are nescessary to run the program. 
 
 The encryption key is stored in file "keys.csv" you can generate your own key as while. Just remember to decrypt the files with the same key that you used to 
 encrypt the files
