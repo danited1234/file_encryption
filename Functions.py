@@ -12,7 +12,7 @@ def Encrytp_any_file():
     path_to_folder=input("Please Type the path to the folder\n")
 #to check if the path entered is true    
     if (os.path.isdir(path_to_folder)):
-        return True
+        print("")
     else:
         print("The path does not exits please try again")
         return False
@@ -38,7 +38,7 @@ def Encrytp_any_file():
 def Decrypt_any_file():
     path_to_folder=input("Please Type the path to the folder\n")
     if (os.path.isdir(path_to_folder)):
-        return True
+        print("")
     else:
         print("The path does not exits please try again")
         return False
